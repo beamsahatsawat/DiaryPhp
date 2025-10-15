@@ -20,7 +20,8 @@ composer.phar
 .env.local
 
 ### Application uploads and generated content
-/uploads/
+/uploads/*
+!uploads/.gitkeep
 /.sass-cache
 /cache/
 /tmp/
