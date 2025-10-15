@@ -1,0 +1,70 @@
+### General
+# Ignore temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### OS generated files
+ehthumbs.db
+Icon?
+
+### PHP / Composer
+/vendor/
+/composer.lock
+composer.phar
+.phpunit.result.cache
+
+### Environment files
+.env
+.env.*
+.env.local
+
+### Application uploads and generated content
+/uploads/
+/.sass-cache
+/cache/
+/tmp/
+
+### Logs
+/logs/
+*.log
+
+### IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*~
+
+### Node and frontend
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### PHPStorm specific
+/.idea/
+/.idea/*
+*.iml
+
+# ### Prevent committing sensitive include with DB credentials
+# /inc/db-connect.inc.php
+
+### User uploads and personal files
+/uploads/*
+!/uploads/.gitkeep
+
+### Images or generated files that may be large
+/images/*.db
+
+### Backup files
+*.bak
+*.old
+
+### Allow the project files
+!index.php
+!form.php
+!views/
+
+# End of file
